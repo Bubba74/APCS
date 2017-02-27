@@ -1,0 +1,6 @@
+
+echo "Compiling ../src"
+
+javac -d ~/Desktop/APCS/Diplomas/bin ../src/Basic.java ../src/Honors.java ../src/Main.java
+
+echo "Done"
