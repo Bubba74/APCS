@@ -1,0 +1,6 @@
+
+echo "Compiling ../src"
+
+javac -d . ../src/Team.java ../src/Main.java
+
+echo "Done"

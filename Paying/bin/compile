@@ -1,0 +1,6 @@
+
+echo "Compiling ../src"
+
+javac -d . ../src/Payable.java ../src/Invoice.java ../src/Employee.java ../src/HourlyEmployee.java ../src/CommissionEmployee.java ../src/BasePlusCommissionEmployee.java
+
+echo "Done"

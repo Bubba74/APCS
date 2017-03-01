@@ -1,0 +1,6 @@
+
+echo "Compiling ../src"
+
+javac -d . ../src/Animal.java ../src/Cow.java ../src/NamedCow.java ../src/Pig.java ../src/Chick.java ../src/Farm.java ../src/TestFarm.java
+
+echo "Done"

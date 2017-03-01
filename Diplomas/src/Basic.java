@@ -31,5 +31,9 @@ public class Basic implements Comparable<Basic>{
 		return lastName.compareTo(other.lastName);
 	}
 
+	public static int count (List<Basic> diplomaList, boolean countBasic){
+		int count = 0;
+		for (Basic diploma : diplomaList ){
+
 }
 

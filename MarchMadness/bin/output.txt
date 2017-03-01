@@ -1,0 +1,132 @@
+
+
+BRACKETS
+
+
+            Team00                                                                                                            
+            Team01            Team00
+                                                                                          
+            Team02                              Team00
+                                                                        
+            Team03            Team02
+                                                                                          
+            Team04                                                Team00
+                                                      
+            Team05            Team04
+                                                                                          
+            Team06                              Team04
+                                                                        
+            Team07            Team06
+                                                                                          
+            Team08                                                                  Team00
+                                    
+            Team09            Team08
+                                                                                          
+            Team10                              Team08
+                                                                        
+            Team11            Team10
+                                                                                          
+            Team12                                                Team08
+                                                      
+            Team13            Team12
+                                                                                          
+            Team14                              Team12
+                                                                        
+            Team15            Team14
+                                                                                          
+            Team16                                                                                    Team00
+                  
+            Team17            Team16
+                                                                                          
+            Team18                              Team16
+                                                                        
+            Team19            Team18
+                                                                                          
+            Team20                                                Team16
+                                                      
+            Team21            Team20
+                                                                                          
+            Team22                              Team20
+                                                                        
+            Team23            Team22
+                                                                                          
+            Team24                                                                  Team16
+                                    
+            Team25            Team24
+                                                                                          
+            Team26                              Team24
+                                                                        
+            Team27            Team26
+                                                                                          
+            Team28                                                Team24
+                                                      
+            Team29            Team28
+                                                                                          
+            Team30                              Team28
+                                                                        
+            Team31            Team30
+                                                                                          
+            Team32                                                                                                      Team00
+
+            Team33            Team32
+                                                                                          
+            Team34                              Team32
+                                                                        
+            Team35            Team34
+                                                                                          
+            Team36                                                Team32
+                                                      
+            Team37            Team36
+                                                                                          
+            Team38                              Team36
+                                                                        
+            Team39            Team38
+                                                                                          
+            Team40                                                                  Team32
+                                    
+            Team41            Team40
+                                                                                          
+            Team42                              Team40
+                                                                        
+            Team43            Team42
+                                                                                          
+            Team44                                                Team40
+                                                      
+            Team45            Team44
+                                                                                          
+            Team46                              Team44
+                                                                        
+            Team47            Team46
+                                                                                          
+            Team48                                                                                    Team32
+                  
+            Team49            Team48
+                                                                                          
+            Team50                              Team48
+                                                                        
+            Team51            Team50
+                                                                                          
+            Team52                                                Team48
+                                                      
+            Team53            Team52
+                                                                                          
+            Team54                              Team52
+                                                                        
+            Team55            Team54
+                                                                                          
+            Team56                                                                  Team48
+                                    
+            Team57            Team56
+                                                                                          
+            Team58                              Team56
+                                                                        
+            Team59            Team58
+                                                                                          
+            Team60                                                Team56
+                                                      
+            Team61            Team60
+                                                                                          
+            Team62                              Team60
+                                                                        
+            Team63            Team62
+                                                                                          
