@@ -28,8 +28,31 @@ public class Recursion {
 		int[] arr = {0,3,5,9,3,7,9,6};
 		System.out.println(max(arr));
 
+		int target = 0;
+		System.out.printf("\n\nBinary Search for %d in: [0 3 5 9 3 7 9 6]\n",target);
+		System.out.println(target + " found at index: "+binarySearch (arr, target));
+
 	}
 	
+	public static int binarySearch (int[] arr, int target, int low, int high){
+		int mid = (low+high)/2;
+
+		if (high - low < 2) {
+			if (arr[high] == target) return high;
+			if (arr[low] == target) return low;
+			return -1;
+		}
+
+		if (arr[mid] == target) return mid;
+		else if (arr[mid] < target) return binarySearch (arr, target, mid, high);
+		else return binarySearch (arr, target, low, mid);
+
+	}
+	public static int binarySearch (int [] arr, int target){
+		return binarySearch (arr, target, 0, arr.length-1);
+	}
+
+
 	public static int fib (int num){
 		if (num == 0) return 0;
 		if (num == 1) return 1;
