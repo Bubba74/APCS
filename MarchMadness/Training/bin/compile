@@ -1,0 +1,6 @@
+
+echo "Compiling ../src"
+
+javac -d ~/Desktop/APCS/MarchMadness/Training/bin ~/Desktop/APCS/MarchMadness/Training/src/*
+
+echo "Done"

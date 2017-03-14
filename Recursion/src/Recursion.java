@@ -28,9 +28,10 @@ public class Recursion {
 		int[] arr = {0,3,5,9,3,7,9,6};
 		System.out.println(max(arr));
 
-		int target = 0;
-		System.out.printf("\n\nBinary Search for %d in: [0 3 5 9 3 7 9 6]\n",target);
-		System.out.println(target + " found at index: "+binarySearch (arr, target));
+		int[] array = {0,1,2,4,8,10,25};
+		int target = 250;
+		System.out.printf("\n\nBinary Search for %d in: [0 1 2 4 8 10 25]\n",target);
+		System.out.println(target + " found at index: "+binarySearch (array, target));
 
 	}
 	

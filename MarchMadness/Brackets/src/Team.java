@@ -1,10 +1,16 @@
+/*
+  Henry Loh, APCS, Period 2
+*/
 
 public class Team {
 
 	public String name;
 	
+	//Wins
 	public double stat1;
+	//AdjEM
 	public double stat2;
+	//AdjOffense
 	public double stat3;
 
 	public Team (String name, double s1, double s2, double s3){
@@ -16,8 +22,11 @@ public class Team {
 	}
 	
 	public Team play (Team opp){
-		if (name.compareTo(opp.name) < 0)	
-			return this;
+		double score1 = stat1 + 4*stat2 + stat3/2;
+		double score2 = opp.stat1 + 4*opp.stat2 + opp.stat3/2;
+
+		if (score1 >= score2) return this;
+
 		return opp;
 	}
 

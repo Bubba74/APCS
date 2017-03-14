@@ -1,0 +1,249 @@
+TCU
+43	42	85	
+Kansas
+42	40	82	
+
+St._John's
+26	41	67	
+Villanova
+52	56	108	
+
+Arizona_State
+31	26	57	
+Oregon
+34	46	80	
+
+Miami_(Fla.)
+29	24	53	
+North_Carolina
+34	44	78	
+
+Colorado
+37	41	78	
+Arizona
+38	54	92	
+
+Duke
+39	42	81	
+Louisville
+37	40	77	
+
+Texas
+30	23	53	
+West_Virginia
+39	24	63	
+
+Virginia_Tech
+35	33	68	
+Florida_State
+33	41	74	
+
+Xavier
+26	36	62	
+Butler
+30	27	57	
+
+Oklahoma_State
+36	47	83	
+Iowa_State
+39	53	92	
+
+Davidson
+49	33	82	
+La_Salle
+34	39	73	
+
+Illinois
+29	26	55	
+Michigan
+40	35	75	
+
+Eastern_Mich.
+27	35	62	
+Akron
+30	49	79	
+
+UTSA
+31	39	70	
+Middle_Tenn.
+41	45	86	
+
+Tennessee
+27	30	57	
+Georgia
+26	33	59	
+
+Seton_Hall
+35	47	82	
+Marquette
+35	41	76	
+
+Western_Mich.
+33	30	63	
+Ball_State
+38	28	66	
+
+Penn_State
+27	24	51	
+Michigan_State
+45	33	78	
+
+Massachusetts
+26	34	60	
+St._Bonaventure
+44	29	73	
+
+Cal_Poly
+21	34	55	
+UC_Davis
+26	40	66	
+
+Utah_State
+28	41	69	
+Nevada
+45	38	83	
+
+Rice
+29	47	76	
+UTEP
+49	37	86	
+
+Portland_State
+35	37	72	
+North_Dakota
+49	46	95	
+
+East_Carolina
+36	44	80	
+Temple
+29	40	69	
+
+Mississippi_St.
+22	33	55	
+Alabama
+34	41	75	
+
+Seattle_U
+30	23	53	
+Utah_Valley
+32	33	65	
+
+CSUN
+41	27	68	
+CSU_Fullerton
+37	44	81	
+
+New_Mexico
+35	25	60	
+Fresno_State
+36	29	65	
+
+California
+30	48	78	
+Utah
+30	45	75	
+
+Montana
+34	43	77	
+Idaho
+41	40	81	
+
+Fordham
+30	35	6	71	
+George_Mason
+35	30	17	82	
+
+Tulane
+23	37	60	
+Tulsa
+26	40	66	
+
+Howard
+40	28	68	
+Morgan_State
+32	33	65	
+
+Sam_Houston St.
+28	35	63	
+Houston_Baptist
+26	33	59	
+
+Indiana
+43	52	95	
+Iowa
+40	33	73	
+
+Toledo
+37	29	66	
+Ohio
+29	38	67	
+
+UAB
+18	39	57	
+Louisiana_Tech
+31	38	69	
+
+Texas_A&M
+20	21	41	
+Vanderbilt
+23	43	66	
+
+Chicago_State
+25	28	53	
+New_Mexico St.
+28	39	67	
+
+South_Florida
+29	37	66	
+Connecticut
+42	35	77	
+
+Md.-East._Shore
+40	28	68	
+Hampton
+31	35	66	
+
+Saint_Louis
+25	21	46	
+Geo._Washington
+13	40	53	
+
+Lamar_University
+25	34	59	
+Steph._F. Austin
+39	36	75	
+
+Sacramento_St.
+27	43	70	
+Eastern_Wash.
+40	49	89	
+
+UC_Riverside
+28	39	67	
+UC_Irvine
+38	38	76	
+
+Kent_State
+39	29	68	
+Buffalo
+32	33	65	
+
+Air_Force
+26	29	55	
+Colorado_State
+39	42	81	
+
+Rutgers
+24	37	61	
+Northwestern
+42	41	83	
+
+Marshall
+27	37	64	
+Old_Dominion
+29	34	63	
+
+Missouri
+36	38	74	
+Mississippi
+46	40	86
