@@ -13,6 +13,10 @@ public class Seat {
 		occupant = null;
 	}
 	public Seat (Status status){
+		if (status == Status.kFull){
+			System.out.println("Illegal seet status, cannot be filled with no passenger");
+			status = Status.kNonexistent;
+		}
 		this.status = status;
 		occupant = null;
 	}
@@ -38,6 +42,12 @@ public class Seat {
 		}
 	}//fill
 
+	public boolean doesExist(){
+		return !(status==Status.kNonexistent);
+	}
+	public boolean canBeFilled(){
+		return empty() && doesExist();
+	}
 	public boolean filled (){
 		return (status == Status.kFull ? true : false);
 	}//filled method
