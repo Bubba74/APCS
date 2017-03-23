@@ -42,6 +42,18 @@ public class Seat {
 		}
 	}//fill
 
+	public void print(int col, int row){
+		if ( status == Status.kNonexistent){
+			System.out.print("    ");
+		} else {
+			System.out.printf("  %s%d",(char)(col+'A'), row);
+		}
+	}//print
+			
+
+	public void destroy(){
+		status = Status.kNonexistent;
+	}
 	public boolean doesExist(){
 		return !(status==Status.kNonexistent);
 	}

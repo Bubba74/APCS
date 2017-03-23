@@ -29,4 +29,30 @@ public class Passenger {
 		loc = Location.valueOf(seatLocation);
 	}
 
+	public String toString (){
+		String className = "";
+		String locName = "";
+
+		switch (travelClass){
+		case First:
+			className = "First";
+			break;
+		case Econ:
+			className = "Econ";
+			break;
+		}
+		switch (loc){
+		case W:
+			locName = "W";
+			break;
+		case C:
+			locName = "C";
+			break;
+		case A:
+			locName = "A";
+			break;
+		}
+
+		return String.format("%10s %10s %5s %s",firstName, lastName, className, locName);
+	}
 }//Passenger class
