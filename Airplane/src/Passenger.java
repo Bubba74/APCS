@@ -27,7 +27,20 @@ public class Passenger {
 
 		travelClass = TravelClass.valueOf(firstOrEcon);
 		loc = Location.valueOf(seatLocation);
+
 	}
+
+	public static Passenger nullPassenger(){
+		return new Passenger("NA", "NA", "Econ", "C");
+	}
+
+	public TravelClass classPref (){
+		return travelClass;
+	}//classPref method
+
+	public Location locPref (){
+		return loc;
+	}//locPref method
 
 	public String toString (){
 		String className = "";

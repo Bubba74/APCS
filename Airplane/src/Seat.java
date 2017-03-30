@@ -25,28 +25,45 @@ public class Seat {
 		occupant = person;
 	}
 
-	public void fill (Passenger person){
+	public Passenger passenger(){
+		Passenger returnPerson = Passenger.nullPassenger();
 
 		switch (status){
 		case kNonexistent:
-			System.out.println("Tried to assign passenger to non existent seat!");
+			System.out.println("No Person");
 			System.exit(1);
 			break;
 		case kEmpty:
-			occupant = person;
-			status = Status.kFull;
+			System.out.println("Empty");
+			System.exit(1);
 			break;
 		case kFull:
-			System.out.println("Seat Filled Already!!");
+			returnPerson = occupant;
 			break;
 		}
+		return returnPerson;
+	}//passenger method
+
+	public boolean fill (Passenger person){
+
+		switch (status){
+		case kNonexistent:
+			return false;
+		case kEmpty:
+			occupant = person;
+			status = Status.kFull;
+			return true;
+		case kFull:
+			return false;
+		}
+		return false;
 	}//fill
 
 	public void print(int col, int row){
 		if ( status == Status.kNonexistent){
-			System.out.print("    ");
+			System.out.print("     ");
 		} else {
-			System.out.printf("  %s%d",(char)(col+'A'), row);
+			System.out.printf("  %2d%s", row, (char)(col+'A'));
 		}
 	}//print
 			
@@ -64,7 +81,7 @@ public class Seat {
 		return (status == Status.kFull ? true : false);
 	}//filled method
 	public boolean empty (){
-		return !filled();
+		return (status == Status.kEmpty ? true : false);
 	}//empty method
 
 }//Seat class

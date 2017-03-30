@@ -19,6 +19,10 @@ public class Party {
 		i++;
 	}//addPassenger method
 
+	public Passenger[] list (){
+		return passengers;
+	}//list passengers
+
 	public String toString(){
 		String string = String.format("Party with %d %5s\n",size, (size==1?"person":"people"));
 

@@ -17,6 +17,18 @@ public class Main {
 
 		for (Party p : parties)
 			System.out.println(p);
+		System.out.println("\n\n--------Plane Framework--------\n");
+		plane.printAll();
+
+		
+		plane.fillWithParties (parties);
+
+
+		System.out.println("\n----------Filled Seats-----------\n");
+		plane.printFull();
+
+		System.out.println("\n---------Assignments------------\n");
+		plane.printAssignments();
 
 	}//main
 
